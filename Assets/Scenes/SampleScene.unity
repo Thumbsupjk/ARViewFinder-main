@@ -15706,7 +15706,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6a23906647e25b947afa82b928316209, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -10.99
+      value: -11.43
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6a23906647e25b947afa82b928316209, type: 3}
       propertyPath: m_LocalPosition.y
@@ -15714,7 +15714,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6a23906647e25b947afa82b928316209, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -4.83
+      value: -4.74
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6a23906647e25b947afa82b928316209, type: 3}
       propertyPath: m_LocalRotation.w
@@ -18901,10 +18901,10 @@ Animation:
   m_Animation: {fileID: 0}
   m_Animations: []
   m_WrapMode: 0
-  m_PlayAutomatically: 1
+  m_PlayAutomatically: 0
   m_AnimatePhysics: 0
   m_UpdateMode: 0
-  m_CullingType: 0
+  m_CullingType: 1
 --- !u!65 &1942081323
 BoxCollider:
   m_ObjectHideFlags: 0
