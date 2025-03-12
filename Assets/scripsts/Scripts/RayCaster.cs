@@ -32,6 +32,13 @@ public class RayCaster : MonoBehaviour
                 receiver.OnRaycastEnter();
             }
             lastReceiver = receiver;
+        } else
+        {
+            if (lastReceiver != null)
+            {
+                lastReceiver.OnRaycastExit();
+                lastReceiver = null;
+            }
         }
     }
 
